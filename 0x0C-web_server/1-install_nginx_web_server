@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Installing nginx server
+
+#-y ensures it gets the latest update
+
+apt-get -y update
+apt-get -y install nginx
+
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+service nginx restart
+service nginx status
+
