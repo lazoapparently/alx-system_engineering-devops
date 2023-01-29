@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#Author - Lazo Apparently
 # shellcheck disable=SC2009
 ps -a u | grep "bash"
